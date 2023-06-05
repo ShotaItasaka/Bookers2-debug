@@ -3,5 +3,8 @@ class HomesController < ApplicationController
   end
   
   def about
+    @book = Book.new
+    @books = Book.all
   end
+
 end
